@@ -10,24 +10,33 @@ Deployed on **Databricks Serverless Compute**, it delivers **analytics-ready mod
 ## 📂 Repository Structure  
 
 ```
-aviation-data-engineering/
+Building-Scalable-ETL-Pipeline-with-Azure-Databricks-and-Lakeflow-Declarative-Pipelines/
 │
-├── 📊 Datasets/                # Raw aviation datasets (CSV files)
-│   ├── airports.csv
-│   ├── flights.csv
-│   ├── passengers.csv
-│   └── bookings.csv
+├── 📊 Datasets/                # Aviation datasets (CSV/XLS files)
+│   ├── dim_airports.csv
+│   ├── dim_airports_increment.csv
+│   ├── dim_airports_scd.csv
+│   ├── dim_flights.csv
+│   ├── dim_flights_increment.csv
+│   ├── dim_flights_scd.csv
+│   ├── dim_passengers.csv
+│   ├── dim_passengers_increment.csv
+│   ├── dim_passengers_scd.csv
+│   ├── fact_bookings.csv
+│   └── fact_bookings_increment.csv
 │
 ├── 📜 Docx/                    # Project documentation and diagrams
-│   └── Architecture.png
+│   └── Project Architecture.png
 │
 ├── 🐍 Scripts/                 # Python scripts for ingestion, DLT, and transformations
 │   ├── ingestion_bronze.py
 │   ├── dlt_pipeline.py
-│   └── gold_dims.py
+│   ├── gold_dims.py
+│   ├── setup.py
+│   └── src_parameters.py
 │
 ├── 📑 ProjectReport/           # Final report (Word document)
-│   └── report.docx
+│   └── report_project2.docx
 │
 └── 📘 README.md                # Project overview
 
