@@ -29,7 +29,7 @@ Building-Scalable-ETL-Pipeline-with-Azure-Databricks-and-Lakeflow-Declarative-Pi
 │   └── Project Architecture.png
 │
 ├── 🐍 Scripts/                 # Python scripts for ingestion, DLT, and transformations
-│   ├── ingestion_bronze.py
+│   ├── bronze_layer.py
 │   ├── dlt_pipeline.py
 │   ├── gold_dims.py
 │   ├── setup.py
