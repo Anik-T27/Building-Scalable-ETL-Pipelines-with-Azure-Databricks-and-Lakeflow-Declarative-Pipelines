@@ -7,27 +7,30 @@ Deployed on **Databricks Serverless Compute**, it delivers **analytics-ready mod
 
 ---
 
-## 🗂️ Repository Structure 
+## 📂 Repository Structure  
+
 aviation-data-engineering/
 │
-├── Datasets/ # Raw aviation datasets (CSV files)
+├── 📊 Datasets/ # Raw aviation datasets (CSV files)
 │ ├── airports.csv
 │ ├── flights.csv
 │ ├── passengers.csv
 │ └── bookings.csv
 │
-├── Docx/ # Project documentation and diagrams
+├── 📜 Docx/ # Project documentation and diagrams
 │ └── Architecture.png
 │
-├── Scripts/ # Python scripts for ingestion, DLT, and transformations
+├── 🐍 Scripts/ # Python scripts for ingestion, DLT, and transformations
 │ ├── ingestion_bronze.py
 │ ├── dlt_pipeline.py
 │ └── gold_dims.py
 │
-├── ProjectReport/ # Final report (Word document)
+├── 📑 ProjectReport/ # Final report (Word document)
 │ └── report.docx
 │
-└── README.md # Project overview
+└── 📘 README.md # Project overview
+
+Copy code
 
 
 ## ⚙️ Tech Stack  
